@@ -23,10 +23,12 @@ Idealerweise verkabelt man die Schnittstelle COMM 3 irgendwo ins Haus wo man ein
 ## Home Assistant Integration
 Die Kommunikation mit Home Assistant kann entwerder direkt über die Modbus Integration erfolgen oder über ein zwischengeschaltetes ESP32 / ESPHome Modul.
 
-### Einbindung per ModBus direkt in Home Assistant
-[Modbus Einbindung](README_HA_MODBUS.md)
 ### Einbindung per ESPHome
 [ESPHome Einbindung](README_HA_ESPHOME.md)
 
+### Einbindung per ModBus direkt in Home Assistant
+
+[Modbus Einbindung](README_HA_MODBUS.md)
+
 ## Modbus Register der AVARMA Wärmepumpe
-[Modbus Register](README_MODBUS_REGISTER.md)
+[Modbus Register](https://github.com/auenkind/esphome/blob/dev/esphome/components/hofman_energy_avarma/AVARMA_REGISTERS.md)
